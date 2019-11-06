@@ -7,6 +7,7 @@ int replacePunc(char *line){
   int character = 0;
   int i = 0;
   int commasRemoved = 0;
+  int total = 0;
 
   lineLength = strlen (line);
 
